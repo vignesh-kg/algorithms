@@ -15,7 +15,6 @@ public class TwoSum {
     public int[] twoSumUsingHashing(int[] nums, int target) {
         int[] result = new int[2];
         result[0] = result[1] = -1;
-
         Map<Integer, Integer> hmap = new HashMap<>();
 
         for (int i = 0; i < nums.length; i++) {
